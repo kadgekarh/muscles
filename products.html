@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7K0B2CD2CW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7K0B2CD2CW');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MuscleBlaze Products</title>
+<style>
+body {
+    background: #000;
+    color: #fff;
+    font-family: Arial;
+    margin: 0;
+}
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+nav a {
+    margin: 0 15px;
+    color: yellow;
+    text-decoration: none;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+.card {
+    background: #111;
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+.card img {
+    width: 200px;
+    border-radius: 10px;
+}
+button {
+    background: yellow;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background: orange;
+}
+</style>
+</head>
+
+<body>
+
+<header>MuscleBlaze Products</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+</nav>
+
+<div class="products">
+
+    <div class="card">
+        <img src="images/whey1.jpg">
+        <h3>Whey Protein – Chocolate</h3>
+        <p>Flavors: Chocolate | Vanilla | Mango</p>
+        <p>Available: 1kg • 2kg • 4kg</p>
+        <button onclick="location.href='product-detail.html'">View Product</button>
+    </div>
+
+    <div class="card">
+        <img src="images/whey2.jpg">
+        <h3>Whey Isolate – Vanilla</h3>
+        <p>Flavors: Vanilla | Coffee</p>
+        <p>Available: 1kg • 2kg</p>
+        <button onclick="location.href='product-detail.html'">View Product</button>
+    </div>
+
+</div>
+
+</body>
+</html>
