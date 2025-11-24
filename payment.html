@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7K0B2CD2CW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7K0B2CD2CW');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment</title>
+<style>
+body {
+    background: #000;
+    color: #fff;
+    font-family: Arial;
+}
+form {
+    width: 90%;
+    max-width: 450px;
+    margin: auto;
+    background: #111;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+button {
+    background: yellow;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+button:hover { background: orange; }
+</style>
+</head>
+
+<body>
+
+<h2 style="text-align:center; margin-top: 20px;">Payment Details</h2>
+
+<form action="thankyou.html">
+    <input type="text" placeholder="Full Name" required>
+    <input type="text" placeholder="Address" required>
+    <input type="text" placeholder="City" required>
+    <input type="text" placeholder="Pincode" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Phone Number" required>
+
+    <h3>Payment Method</h3>
+    <select>
+        <option>UPI</option>
+        <option>Debit/Credit Card</option>
+        <option>Net Banking</option>
+    </select>
+
+    <button type="submit">Pay Now</button>
+</form>
+
+</body>
+</html>
